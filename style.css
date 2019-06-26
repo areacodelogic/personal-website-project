@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background:#FAFDF6
+  }
+
+.height{
+    min-height: 100vh;
+}
+
+.title-underline{
+  width: 100px;
+  height: 5px;
+  margin:0 auto;
+  
+
+}
+
+.height-80{
+  min-height: 70vh;
+}
+
+
+.header-picture{
+  background: url(../img/avataaars.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no;
+  margin-bottom: 40px
+  
+}
+.about-picture{
+  background: url(../img/image1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no;
+  background-attachment: fixed;
+  
+}
+.contact-picture{
+  background: url(../img/image11.jpeg);
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no;
+  background-attachment: fixed;
+  
+}
+
+.download{
+  color: #16425B;
+  background: #81C3D7;
+  border: 2px solid;
+  transition: all 1s;
+  box-shadow: 0 1px 2px 
+}
+.download:hover{
+  color: #81C3D7;
+  background: #16425B;
+  border: 2px solid;
+  transform: translateY(-7px);
+  box-shadow: 0 5px 15px 
+}
